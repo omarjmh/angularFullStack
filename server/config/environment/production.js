@@ -19,6 +19,18 @@ module.exports = {
           process.env.MONGOHQ_URL ||
           process.env.OPENSHIFT_MONGODB_DB_URL +
           process.env.OPENSHIFT_APP_NAME ||
-          'mongodb://localhost/yoangularfullstack'
+          'mongodb://localhost/richNeighbors'
+  },
+
+  sequelize: {
+    uri:  process.env.SEQUELIZE_URI ||
+          'sqlite://',
+    options: {
+      logging: false,
+      storage: 'dist.sqlite',
+      define: {
+        timestamps: false
+      }
+    }
   }
 };

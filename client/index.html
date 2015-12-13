@@ -18,6 +18,7 @@
     <!-- build:css({.tmp,client}) app/app.css -->
       <link rel="stylesheet" href="app/app.css">
       <!-- injector:css -->
+      <link rel="stylesheet" href="components/carousel/carousel.css">
       <!-- endinjector -->
     <!-- endbuild -->
   </head>
@@ -46,6 +47,7 @@
     <![endif]-->
     <!-- build:js({client,node_modules}) app/vendor.js -->
       <!-- bower:js -->
+      <script src="bower_components/modernizr/modernizr.js"></script>
       <script src="bower_components/jquery/dist/jquery.js"></script>
       <script src="bower_components/angular/angular.js"></script>
       <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
@@ -55,6 +57,12 @@
       <script src="bower_components/lodash/dist/lodash.compat.js"></script>
       <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
       <script src="bower_components/angular-validation-match/dist/angular-validation-match.min.js"></script>
+      <script src="bower_components/angular-ui-utils/ui-utils.js"></script>
+      <script src="bower_components/angular-ui-map/ui-map.js"></script>
+      <script src="bower_components/fastclick/lib/fastclick.js"></script>
+      <script src="bower_components/jquery.cookie/jquery.cookie.js"></script>
+      <script src="bower_components/jquery-placeholder/jquery.placeholder.js"></script>
+      <script src="bower_components/foundation/js/foundation.js"></script>
       <!-- endbower -->
     <!-- endbuild -->
     <!-- build:js(.tmp) app/app.js -->
@@ -68,14 +76,25 @@
       <script src="app/account/account.js"></script>
       <script src="app/admin/admin.router.js"></script>
       <script src="app/app.constant.js"></script>
+      <script src="app/campaignProfile/campaignProfile.controller.js"></script>
+      <script src="app/campaignProfile/campaignProfile.js"></script>
       <script src="app/main/main.controller.js"></script>
       <script src="app/main/main.js"></script>
+      <script src="app/startCampaign/startCampaign.controller.js"></script>
+      <script src="app/startCampaign/startCampaign.js"></script>
+      <script src="app/submitCampaignsSuccess/submitCampaignsSuccess.controller.js"></script>
+      <script src="app/submitCampaignsSuccess/submitCampaignsSuccess.js"></script>
       <script src="app/account/settings/settings.controller.js"></script>
       <script src="app/account/login/login.controller.js"></script>
       <script src="components/auth/interceptor.service.js"></script>
       <script src="components/auth/router.decorator.js"></script>
       <script src="components/auth/user.service.js"></script>
+      <script src="components/carousel/carousel.directive.js"></script>
+      <script src="components/colorBar/colorBar.directive.js"></script>
       <script src="components/footer/footer.directive.js"></script>
+      <script src="components/geolocation/event.js"></script>
+      <script src="components/geolocation/geolocation.controller.js"></script>
+      <script src="components/geolocation/geolocation.directive.js"></script>
       <script src="components/mongoose-error/mongoose-error.directive.js"></script>
       <script src="components/navbar/navbar.controller.js"></script>
       <script src="components/navbar/navbar.directive.js"></script>

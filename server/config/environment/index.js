@@ -29,7 +29,7 @@ var all = {
 
   // Secret for session, you will want to change this and make it an environment variable
   secrets: {
-    session: 'yo-angular-full-stack-secret'
+    session: 'b-secret'
   },
 
   // MongoDB connection options

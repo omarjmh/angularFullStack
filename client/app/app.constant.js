@@ -1,7 +1,7 @@
 (function(angular, undefined) {
 'use strict';
 
-angular.module('bApp.constants', [])
+angular.module('yoAngularFullStackApp.constants', [])
 
 .constant('appConfig', {userRoles:['guest','user','admin']})
 

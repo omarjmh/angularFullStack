@@ -43,7 +43,7 @@ module.exports = function(app) {
     resave: false,
     store: new mongoStore({
       mongooseConnection: mongoose.connection,
-      db: 'yo-angular-full-stack'
+      db: 'richNeighbors'
     })
   }));
 
