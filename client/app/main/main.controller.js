@@ -37,7 +37,7 @@
 angular.module('bApp.MainController', [])
 .controller('MainController', ['$scope', '$http', function($scope, $http) {
 
-  $scope.data = data;
+  $scope.data = 4;
    $scope.Math = window.Math;
 
 

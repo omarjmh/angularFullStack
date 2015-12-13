@@ -9,7 +9,7 @@ var _ = require('lodash');
 var CampaignSchema = new Schema({
   title: {
     type: String,
-    required: true,
+    required: false,
     validate: [
     function(title){
       return title.trim().length >= 5;
@@ -18,7 +18,7 @@ var CampaignSchema = new Schema({
   },
   description: {
     type: String,
-    required: true,
+    required: false,
     validate: [
     function (name) {
       return name.trim().length >= 24
@@ -27,7 +27,7 @@ var CampaignSchema = new Schema({
   },
   created_at: {
     type: Date,
-    required: true,
+    required: false,
     default: Date.now
   },
   // TODO: Remove if comment api works4 null
@@ -62,11 +62,11 @@ var CampaignSchema = new Schema({
     neighborhood: String,
     city: {
       type: String,
-      required: true
+      required: false
     },
     zip: {
       type: String,
-      required: true
+      required: false
     },
     state: String,
     country: {
@@ -82,7 +82,7 @@ var CampaignSchema = new Schema({
   },
   goal: {
     type: String,
-    required: true,
+    required: false,
     validate: [
     function (goal){
       return goal >= 1;
@@ -91,16 +91,16 @@ var CampaignSchema = new Schema({
   },
   active: {
     type: Boolean,
-    required: true,
+    required: false,
     default: true
   },
   url: {
     type: String,
-    required: true,
+    required: false,
   },
   picture_url: {
     type: String,
-    required: true,
+    required: false,
     default: '/asset/basic.png'  //TODO: Correct to basic png/jpg
   }
 });
