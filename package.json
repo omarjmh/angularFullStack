@@ -26,9 +26,7 @@
     "passport-facebook": "^2.0.0",
     "passport-twitter": "^1.0.3",
     "passport-google-oauth": "~0.2.0",
-    "serve-favicon": "^2.3.0"
-  },
-  "devDependencies": {
+    "serve-favicon": "^2.3.0",
     "autoprefixer": "^6.0.0",
     "babel-core": "^5.6.4",
     "grunt": "~0.4.5",
