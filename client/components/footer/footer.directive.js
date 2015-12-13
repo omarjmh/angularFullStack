@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('yoAngularFullStackApp')
+angular.module('bApp')
   .directive('footer', function () {
     return {
       templateUrl: 'components/footer/footer.html',

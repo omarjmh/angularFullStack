@@ -27,5 +27,5 @@ class SettingsController {
   }
 }
 
-angular.module('yoAngularFullStackApp')
+angular.module('bApp')
   .controller('SettingsController', SettingsController);

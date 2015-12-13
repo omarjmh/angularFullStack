@@ -1,3 +1,3 @@
 'use strict';
 
-angular.module('yoAngularFullStackApp.util', []);
+angular.module('bApp.util', []);

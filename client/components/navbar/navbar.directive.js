@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('yoAngularFullStackApp')
+angular.module('bApp')
   .directive('navbar', () => ({
     templateUrl: 'components/navbar/navbar.html',
     restrict: 'E',

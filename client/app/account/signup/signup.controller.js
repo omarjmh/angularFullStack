@@ -39,5 +39,5 @@ class SignupController {
   }
 }
 
-angular.module('yoAngularFullStackApp')
+angular.module('bApp')
   .controller('SignupController', SignupController);

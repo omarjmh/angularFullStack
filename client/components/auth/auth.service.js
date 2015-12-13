@@ -183,7 +183,7 @@ function AuthService($location, $http, $cookies, $q, appConfig, Util, User) {
   return Auth;
 }
 
-angular.module('yoAngularFullStackApp.auth')
+angular.module('bApp.auth')
   .factory('Auth', AuthService);
 
 })();

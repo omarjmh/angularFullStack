@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('yoAngularFullStackApp')
+angular.module('bApp')
   .config(function($stateProvider) {
     $stateProvider
       .state('login', {

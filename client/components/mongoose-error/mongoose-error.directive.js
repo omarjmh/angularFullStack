@@ -3,7 +3,7 @@
 /**
  * Removes server error when user updates input
  */
-angular.module('yoAngularFullStackApp')
+angular.module('bApp')
   .directive('mongooseError', function () {
     return {
       restrict: 'A',

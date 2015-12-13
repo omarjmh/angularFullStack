@@ -15,7 +15,7 @@ class AdminController {
   }
 }
 
-angular.module('yoAngularFullStackApp.admin')
+angular.module('bApp.admin')
   .controller('AdminController', AdminController);
 
 })();

@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('yoAngularFullStackApp.admin')
+angular.module('bApp.admin')
   .config(function($stateProvider) {
     $stateProvider
       .state('admin', {
